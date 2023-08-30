@@ -13,26 +13,4 @@ items:
       jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
   - name: Scan your code dependencies for vulnerabilities (SCA)
     uses: jitsecurity-controls/jit-plans/items/code/item-dependency-check.yml@latest
-  - name: Scan Kubernetes configuration files
-    uses: >-
-      jitsecurity-controls/jit-plans/items/infrastructure/item-iac-kubernetes.yml@latest
-  - name: Scan your infrastructure-as-code (IaC) for misconfigurations
-    uses: >-
-      jitsecurity-controls/jit-plans/items/infrastructure/item-iac-misconfiguration-detection.yml@latest
-  - name: HOST-001. Confirm your hosting model
-    uses: >-
-      jitsecurity-controls/jit-plans/items/partner_hosted/item-partner-hosting-model.yml@latest
-    input:
-      note: gfds
-      status: failed
-  - name: Scan code for hard-coded secrets
-    uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
-  - name: >
-      SUP-001. Enable AWS Business Support (or greater) on all production AWS
-      accounts
-    uses: >-
-      jitsecurity-controls/jit-plans/items/support_level/item-support-business.yml@latest
-    input:
-      status: passed
-      note: gt
 
