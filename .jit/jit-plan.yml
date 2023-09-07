@@ -7,5 +7,9 @@ owners:
 references:
   - https://www.jit.io
 tags: []
-items: []
+items:
+  - name: |
+      Use root user only by exception
+    uses: >-
+      jitsecurity-controls/jit-plans/items/aws_root_account/item-root-account-exception.yml@latest
 
