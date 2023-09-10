@@ -25,4 +25,8 @@ items:
     input:
       status: passed
       note: fds
+  - name: |
+      Configure CloudTrail in all AWS Accounts and in all Regions
+    uses: >-
+      jitsecurity-controls/jit-plans/items/aws_cloudtrail/item-cloudtrail-config.yml@latest
 
