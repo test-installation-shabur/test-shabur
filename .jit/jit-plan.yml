@@ -44,4 +44,11 @@ items:
     input:
       status: passed
       note: cas
+  - name: |
+      Store secrets securely
+    uses: >-
+      jitsecurity-controls/jit-plans/items/identity_and_access_management/item-iam-store-secrets.yml@latest
+    input:
+      status: passed
+      note: x
 
