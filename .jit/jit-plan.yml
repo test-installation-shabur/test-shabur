@@ -8,8 +8,14 @@ references:
   - https://www.jit.io
 tags: []
 items:
-  - name: |
-      Use root user only by exception
+  - name: Use root user only by exception
     uses: >-
       jitsecurity-controls/jit-plans/items/aws_root_account/item-root-account-exception.yml@latest
+  - name: |
+      Confirm your hosting model
+    uses: >-
+      jitsecurity-controls/jit-plans/items/partner_hosted/item-partner-hosting-model.yml@latest
+    input:
+      status: passed
+      note: dsa
 
