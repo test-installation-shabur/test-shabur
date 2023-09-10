@@ -13,7 +13,7 @@ items:
     uses: >-
       jitsecurity-controls/jit-plans/items/partner_hosted/item-partner-hosting-model.yml@latest
     input:
-      status: failed
+      status: passed
       note: dsafds
   - name: Use root user only by exception
     uses: >-
