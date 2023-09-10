@@ -58,4 +58,11 @@ items:
     input:
       status: passed
       note: dwq
+  - name: |
+      Set account contact information
+    uses: >-
+      jitsecurity-controls/jit-plans/items/communication_with_aws/item-account-contacts-config.yml@latest
+    input:
+      status: passed
+      note: ferq
 
