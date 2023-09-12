@@ -63,4 +63,8 @@ items:
     input:
       status: passed
       note: fre
+  - name: |
+      Remove access keys for the root user
+    uses: >-
+      jitsecurity-controls/jit-plans/items/aws_root_account/item-root-account-keys.yml@latest
 
